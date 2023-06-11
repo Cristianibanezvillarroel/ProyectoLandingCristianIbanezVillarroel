@@ -181,3 +181,9 @@ footer ul a {
 footer div a p {
     margin-left: 10px;
 }
+
+@media (max-width: 610px){
+    header {
+        flex-direction: column;
+    }
+}
