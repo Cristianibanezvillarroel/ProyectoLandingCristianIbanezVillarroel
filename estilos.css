@@ -4,17 +4,26 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 header img {
     width: 80px;
     height: 60px;
+    border-radius: 10px;
 }
+
+header div nav a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
 
 .logo {
     display: flex;
     align-items: center;
     color: white;
+    text-decoration: none;
 }
 
 nav {
@@ -24,7 +33,7 @@ nav {
 
 nav a {
     color: white;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 jumbotron {
