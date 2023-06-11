@@ -31,6 +31,10 @@ nav {
     
 }
 
+nav a:hover{
+    color: black;
+}
+
 nav a {
     color: white;
     margin-right: 20px;
